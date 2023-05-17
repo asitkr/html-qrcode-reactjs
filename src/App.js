@@ -3,7 +3,7 @@ import Html5QrcodePlugin from './component/Html5QrcodePlugin';
 import ResultContainerPlugin from './component/ResultContainerPlugin';
 import React, { useState } from 'react';
 
-function App() {
+const App = (props) => {
   const [decodedResults, setDecodedResults] = useState([]);
 
   const onNewScanResult = (decodedText, decodedResult) => {

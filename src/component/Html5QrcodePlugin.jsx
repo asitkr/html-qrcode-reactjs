@@ -5,6 +5,7 @@ const qrcodeRegionId = "html5qr-code-full-region";
 
 const createConfig = (props) => {
     let config = {};
+
     if (props.fps) {
         config.fps = props.fps;
     }
